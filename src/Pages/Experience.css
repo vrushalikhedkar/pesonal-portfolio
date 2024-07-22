@@ -1,0 +1,66 @@
+.experience {
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+    padding-bottom: 150px;
+}
+
+.experience-me {
+    padding: 20px;
+   
+}
+
+.experience h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #aaaaaaaa;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+   margin-bottom: 40px;
+}
+
+.experience h2::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #a152a5;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.experience-item {
+    margin-bottom: 50px;
+}
+
+.experience-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    margin: 10px 0;
+}
+
+.experience-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.experience-item ul li {
+    margin: 5px 0;
+}
+
+.experience-item a {
+    color: #a152a5;
+    text-decoration: none;
+}
+
+.experience-item a:hover {
+    text-decoration: underline;
+}

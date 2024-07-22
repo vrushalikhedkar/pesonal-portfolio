@@ -1,0 +1,155 @@
+.about {
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+    padding-bottom: 150px;
+}
+
+.about-me {
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #aaaaaaaa;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.about h2::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #a152a5;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.about p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffff;
+}
+
+.about h3 {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.profile-img {
+    height: 300px;
+    width: 350px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.259);
+    backdrop-filter: blur(0.2rem);
+}
+
+section .container {
+    background-color: rgba(0, 0, 0, 0.274);
+    backdrop-filter: blur(0.2rem);
+    padding: 10px 30px;
+}
+
+
+/* skill section */
+.skills-content {
+    margin-top: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.skill-bar {
+    position: relative;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.skill-level {
+    position: absolute;
+    height: 100%;
+    background-color: #a152a5;
+    line-height: 10px;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 20px 0 0 20px;
+    animation: loadSkill 2s ease-in-out forwards;
+}
+
+.skill-level span {
+    padding-right: 10px;
+}
+
+@keyframes loadSkill {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: var(skill-level);
+    }
+}
+
+/* Apply different animation delay for each skill */
+.skill:nth-child(1) .skill-level {
+    animation-delay: 0s;
+}
+
+.skill:nth-child(2) .skill-level {
+    animation-delay: 0.2s;
+}
+
+.skill:nth-child(3) .skill-level {
+    animation-delay: 0.4s;
+}
+
+.skill:nth-child(4) .skill-level {
+    animation-delay: 0.6s;
+}
+
+.skill:nth-child(5) .skill-level {
+    animation-delay: 0.8s;
+}
+
+/* education */
+/* Education Section */
+.education-content {
+    margin-top: 20px;
+  }
+  
+  .education-item {
+    margin-bottom: 20px;
+  }
+  
+  .education-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  .education-item p {
+    font-size: 1rem;
+    color: #cccccc;
+  }
+  

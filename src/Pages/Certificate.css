@@ -1,0 +1,55 @@
+.certificate {
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+    padding-bottom: 150px;
+}
+
+.certificate-me {
+    padding: 20px;
+}
+
+.certificate h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #aaaaaaaa;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.certificate h2::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #a152a5;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.certificate p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffff;
+}
+
+.certificate h3 {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffff;
+}
+.card-custom-image img {
+    height: 200px; 
+    width: 100%; 
+    object-fit: cover; 
+  }
+  

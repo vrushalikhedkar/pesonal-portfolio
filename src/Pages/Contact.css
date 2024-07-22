@@ -1,0 +1,134 @@
+.contact {
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+    padding-bottom: 150px;
+}
+
+.contact-me {
+    padding: 20px;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    letter-spacing: 2px;
+    color: #aaaaaaaa;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.contact h2::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #a152a5;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.contact .info-box {
+    color: #9e9c9c;
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(63, 59, 59, 0.36);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.contact .info-box i {
+    font-size: 1.3rem;
+    border-radius: 50%;
+    padding: 10px;
+    float: left;
+    color: #9e9c9c;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.contact .info-box i:hover{
+    color: #a152a5;
+}
+
+.contact .info-box h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 10px 0 8px 60px;
+}
+
+.contact .info-box p {
+    padding: 0;
+    font-size: 14px;
+    color: #9e9c9c;
+    line-height: 24px;
+    margin: 0 0 0 60px;
+}
+
+.contact .info-box .social-links {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 60px;
+    gap: 10px;
+}
+
+.contact .info-box .social-links a {
+    font-size: 1.5rem;
+    display: inline-block;
+    color: #9e9c9c;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.contact .info-box .social-links i:hover {
+    color: #a152a5;
+}
+
+.contact .contact-fom {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.36);
+}
+
+.contact .contact-fom input,
+.contact .contact-fom textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    border: 0;
+    transition: 0.3s;
+    background-color: rgba(63, 59, 59, 0.36);
+    
+}
+
+.contact .contact-fom input::placeholder,
+.contact .contact-fom textarea::placeholder {
+    color: #9e9c9c;
+}
+
+.contact .contact-fom input:focus,
+.contact .contact-fom textarea:focus {
+    background-color: rgba(63, 59, 59, 0.36);
+}
+.contact .contact-fom button[type='submit']{
+    margin-top: 30px;
+    border: 0;
+    padding: 10px 30px;
+    background-color: #a74dab;
+    transition: 0.4s;
+    border-radius: 50px;
+    color: #fff;
+}
+.contact .contact-fom button[type='submit']:hover{
+    background-color: #7a407d;
+    color: #fff;
+}
+.contact .contact-fom .error-message {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background: #ed3c8b;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
